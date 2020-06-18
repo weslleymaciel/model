@@ -67,7 +67,8 @@ Para esta aplicação nosso cliente exige uma infraestrutura serverless altament
 
 ## Instruções de contribuição
 
+1. Realize um fork do projeto (<https://github.com/easydotwork/backend-challenge/fork>)
 1. Crie suas  branchs seguindo um formato padronizado. Exemplo "feature/0001-environment-settings"
 2. Realize o commit de suas modificações 
 3. Envie sua branch para nosso repositório
-4. Cria um Pull Request de sua branch para que nossa equipe possa revisar
+4. Crie um Pull Request de sua branch para que nossa equipe possa revisar
