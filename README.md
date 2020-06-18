@@ -4,7 +4,7 @@
 
 ## Desafio
 
-Considere o seguinte cenário hipotético onde nosso cliente deseja desenvolver uma plataforma para coleta de dados corporativos de seus colaboradores a fim de criar uma base profissional dos envolvidos via preenchimento de um formulário WEB.
+> Considere o seguinte cenário hipotético onde nosso cliente deseja desenvolver uma plataforma para coleta de dados corporativos de seus colaboradores a fim de criar uma base profissional dos envolvidos via preenchimento de um formulário WEB.
 É de interesse do cliente que os colaboradores cadastrados na base recebam um e-mail contendo suas credênciais de acesso para que seja possível realizar a edição de seus dados cadastrais.
 Para esta aplicação nosso cliente exige uma infraestrutura serverless altamente escalável com baixo custo. Nosso cliente já utiliza serviços AWS e sugeriu o uso de AWS Lambda a fim de manter sua arquitetura dentro de um mesmo contexto de trabalho.
 
