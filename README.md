@@ -5,7 +5,7 @@
 ## Desafio
 
 > Considere o seguinte cenário hipotético onde nosso cliente deseja desenvolver uma plataforma para coleta de dados corporativos de seus colaboradores a fim de criar uma base profissional dos envolvidos via preenchimento de um formulário WEB.
-É de interesse do cliente que os colaboradores cadastrados na base recebam um e-mail contendo suas credênciais de acesso para que seja possível realizar a edição de seus dados cadastrais.
+É de interesse do cliente que os colaboradores cadastrados na base recebam um e-mail contendo suas credenciais de acesso para que seja possível realizar a edição de seus dados cadastrais.
 Para esta aplicação nosso cliente exige uma infraestrutura serverless altamente escalável com baixo custo. Nosso cliente já utiliza serviços AWS e sugeriu o uso de AWS Lambda a fim de manter sua arquitetura dentro de um mesmo contexto de trabalho.
 
 
@@ -14,7 +14,7 @@ Para esta aplicação nosso cliente exige uma infraestrutura serverless altament
 * A aplicação deve implementar um CRUD utilizando Node.js com framework Express.
 * Para utilização de recursos serverless da AWS recomendamos o uso de Serverless Framework com o plugin Serverless Offline para emular serviços como AWS Lambda.
 * O banco de dados utilizado deve ser relacional e os dados devem ser manipulados via ORM, de preferência utilizar o Sequelize.
-* O banco de dados possui informações pré definidas pelo cliente que devem ser populadas através de arquivos seeders e a sua criação direcionada por arquivos migrations, a manipulação de dados diretamente na base para esta aplicação deve ser evitada.
+* O banco de dados possui informações pré-definidas pelo cliente que devem ser populadas através de arquivos seeders e a sua criação direcionada por arquivos migrations, a manipulação de dados diretamente na base para esta aplicação deve ser evitada.
 * Dados sensíveis como IDs do banco de dados não devem trafegar de maneira exposta entre as requisições, para a proteção deste tipo de informação sugerimos o uso de padrão JSON Web Token para criptografar este tipo dado utilizando uma chave privada que deve ser armazenada no arquivo de ambiente da aplicação no servidor.
 * Os formulários de entrada podem ser criados utilizando JavaScript, jQuery, Angular, React ou outra plataforma que o candidato se sinta familiarizado.
 
@@ -30,14 +30,14 @@ Para esta aplicação nosso cliente exige uma infraestrutura serverless altament
 * Foto de perfil (Upload de imagem com resolução máxima de 250px de largura por 250px de altura)
 * Nome/Razão Social
 * CPF/CNPJ
-* Função/Cargo (Verificar dados pré definidos)
+* Função/Cargo (Verificar dados pré-definidos)
 * E-mail de acesso 
-* Endereços (Verificar dados pré definidos)
-* Telefones (Verificar dados pré definidos)
-* Redes sociais (Verificar dados pré definidos)
+* Endereços (Verificar dados pré-definidos)
+* Telefones (Verificar dados pré-definidos)
+* Redes sociais (Verificar dados pré-definidos)
 
 
-## Dados pré definidos
+## Dados pré-definidos
 
 ### Tipos de cargos
 * Programador front-end
@@ -48,7 +48,7 @@ Para esta aplicação nosso cliente exige uma infraestrutura serverless altament
 ### Tipos de telefones
 * Fixo
 * Celular
-* Whatsapp
+* WhatsApp
 
 ### Tipos de redes sociais
 * Facebook
@@ -59,7 +59,7 @@ Para esta aplicação nosso cliente exige uma infraestrutura serverless altament
 
 ## Instalação
 
->Utilize este espaço para nos instruir de forma intuitiva a instalar recursos e executar procedimentos necessários para que sua aplicação seja reproduzida com sucesso em nossos compudatores.
+>Utilize este espaço para nos instruir de forma intuitiva a instalar recursos e executar procedimentos necessários para que sua aplicação seja reproduzida com sucesso.
 
 ## Casos de uso
 
@@ -71,11 +71,3 @@ Para esta aplicação nosso cliente exige uma infraestrutura serverless altament
 2. Realize o commit de suas modificações 
 3. Envie sua branch para nosso repositório
 4. Cria um Pull Request de sua branch para que nossa equipe possa revisar
-
-<!-- Markdown link & img dfn's -->
-[npm-image]: https://img.shields.io/npm/v/datadog-metrics.svg?style=flat-square
-[npm-url]: https://npmjs.org/package/datadog-metrics
-[npm-downloads]: https://img.shields.io/npm/dm/datadog-metrics.svg?style=flat-square
-[travis-image]: https://img.shields.io/travis/dbader/node-datadog-metrics/master.svg?style=flat-square
-[travis-url]: https://travis-ci.org/dbader/node-datadog-metrics
-[wiki]: https://github.com/yourname/yourproject/wiki
